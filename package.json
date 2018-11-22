@@ -1,8 +1,10 @@
 {
     "name": "MyFirstApp",
     "version": "1.0.0",
-    "description": "",
+    "description": "demo",
     "author": "",
     "license": "ISC",    
-    "dependencies": {}
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {}
   }

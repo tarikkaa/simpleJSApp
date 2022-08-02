@@ -1,4 +1,4 @@
-class Car {
+export default class Car {
     constructor(carModel, carYear, maxSpeed){
         this.carModel = carModel;
         this.carYear = carYear;
@@ -19,15 +19,8 @@ class Car {
 
 }
 
-// New instance created
-let bmw = new Car('M5', 2000, 300);
-//Own method is called (used private property)
-bmw.accelerate();
-//Own method is called (used private method)
-bmw.getInfo();
-
 //Export class Car
-export {Car};
+//export {Car};
 
 //Export class Car as a new object
 //export default new Car("Mazda", 2010, 180);

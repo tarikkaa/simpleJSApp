@@ -1,6 +1,5 @@
 //Replicate code from slide 11, create instances of car and truck. Try to call different methods for both, investigate output using console.log().
 
-
 export default class Vechicle {
     constructor(type, size){
         this.type = type;
@@ -21,15 +20,6 @@ export default class Vechicle {
     } 
 }
     
-
-
-// New instance created
-let main = new Vechicle();
-
-//Called own method
-main.getInfo();
-
-
 //module.exports = Vechicle;
 
 

@@ -1,5 +1,7 @@
-let number = (num) => {
-    new Promise((res, rej) => {
+
+
+function delay(num) {
+    return new Promise((res, rej) => {
         if (typeof num !== "number") {
         rej(new Error ("Input data is not a number"));
         }
@@ -11,8 +13,17 @@ let number = (num) => {
             let result = "ODD";
             setTimeout(()=> res(result), 2000);
         }
-    }).then((result) => console.log(`Your number is ${result}`))
-    .catch((err) => console.log(`${err.message}`));
+    });
 }
-number("s");
- 
+
+
+async function number (num) {
+    try {
+        let result = await delay(num);
+        console.log(`Your number is ${result}`);
+    }catch(er) {
+    console.log(er.message);
+    }
+}
+
+number(234568);

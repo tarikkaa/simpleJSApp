@@ -1,0 +1,2 @@
+{"name":"EGAut","surname":"GXHfJJK","rate":68}
+{"name":"EGAut","surname":"GXHfJJK","rate":68,"age":30}

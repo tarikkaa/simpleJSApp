@@ -1,8 +1,8 @@
 let calc = require("/Users/tar/simpleJSApp/calc.js");
 let assert = require('assert');
 let _ = require('lodash');
+let chai = require('chai');
 
-_.before(5, () => console.log("Test started !!!"));
 
 describe('Calculator', function () {
 it('Result - plus/positive', function () {
@@ -42,4 +42,7 @@ it('Result - wrong operator/negative', function () {
     assert.notEqual('Check if the third input is one of: "+", "-", "*", "/"', calc.calc(16, "a", "/"));
     });               
 });
+
+
+
 

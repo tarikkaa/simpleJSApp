@@ -3,6 +3,9 @@
   "devDependencies": {
   
     
+  "chai": "^4.3.6",
+  
+    
   "lodash": "^4.17.21",
   
     
@@ -20,9 +23,6 @@
   "main": "app.js",
   
   "directories": {
-  
-    
   "test": "test"
-  
   }
 }
